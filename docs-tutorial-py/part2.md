@@ -16,5 +16,6 @@ Trong python, chúng tôi có rất nhiều chức năng được tích hợp s�
 * open () 
 * file () 
 * help ()
-* dir ().
+* dir ()
+
 ![](../image/i1.png)
