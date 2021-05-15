@@ -1,21 +1,21 @@
 # Chức năng tích hợp sẵn
 Trong python, chúng tôi có rất nhiều chức năng được tích hợp sẵn. Các chức năng tích hợp sẵn trên toàn cầu để bạn sử dụng. Một hàm tích hợp trong Python được sử dụng phổ biến như sau
-* print () 
-* len () 
-* type () 
-* int () 
-* float () 
-* str () 
-* input () 
-* list () 
-* dict () 
-* min () 
-* max () 
-* sum () 
-* sorted () 
-* open () 
-* file () 
-* help ()
-* dir ()
+* `print ()` 
+* `len ()` 
+* `type () `
+* `int () `
+* `float () `
+* `str ()` 
+* `input ()` 
+* `list ()` 
+* `dict ()` 
+* `min ()` 
+* `max ()` 
+* `sum ()` 
+* `sorted ()` 
+* `open ()` 
+* `file ()` 
+* `help ()`
+* `dir ()`
 
 ![](../image/i1.png)
