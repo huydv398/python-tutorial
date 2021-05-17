@@ -1,6 +1,6 @@
 # python-tutorial
  
-[Phần 1 >>](../docs-tutorial-py/part1.md)
+[Phần 1 >>](docs-tutorial-py/part1.md)
 [Phần 2 >>](../docs-tutorial-py/part2.md)
 [Phần 3 >>](../docs-tutorial-py/part3.md)
 [Phần 4 >>](../docs-tutorial-py/part4.md)
