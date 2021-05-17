@@ -138,3 +138,5 @@ num_str ='12.23'
 >>> print(first_name_to_list)
 ['Đ', 'ư', 'ờ', 'n', 'g', ' ', 'V', 'ă', 'n', ' ', 'H', 'u', 'y']
 ```
+
+[<<Phần 1](../docs-tutorial-py/part1.md) [Phần 3>>](//.docs-tutorial-py/part3.md)
