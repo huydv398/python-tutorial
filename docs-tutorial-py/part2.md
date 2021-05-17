@@ -139,4 +139,4 @@ num_str ='12.23'
 ['Đ', 'ư', 'ờ', 'n', 'g', ' ', 'V', 'ă', 'n', ' ', 'H', 'u', 'y']
 ```
 
-[<<Phần 1](../docs-tutorial-py/part1.md) [Phần 3>>](//.docs-tutorial-py/part3.md)
+[<<Phần 1](../docs-tutorial-py/part1.md) [Phần 3>>](//docs-tutorial-py/part3.md)
