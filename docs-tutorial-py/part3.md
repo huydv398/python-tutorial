@@ -1,3 +1,4 @@
+[<<Phần 2](../docs-tutorial-py/part2.md) [Phần 4>>](//docs-tutorial-py/part4.md)
 ## Boolean 
 Kiểu dữ liệu Boolean đại diện cho một giá trị đúng hoặc sai. Việc sử dụng các kiểu dữ liệu này sẽ rõ ràng khi chúng ta bắt đầu sử dụng toán sử so sánh.
 
@@ -75,3 +76,4 @@ print(not False)     # True
 print(not not True)  # True
 print(not not False) # False
 ```
+[<<Phần 2](../docs-tutorial-py/part2.md) [Phần 4>>](//docs-tutorial-py/part4.md)
