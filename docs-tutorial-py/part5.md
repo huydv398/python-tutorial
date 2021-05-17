@@ -1,4 +1,4 @@
-[<<Phần 4](../docs-tutorial-py/part4.md) [Phần 6>>](//docs-tutorial-py/part6.md)
+[<<Phần 4](../docs-tutorial-py/part4.md) [Phần 6>>](../docs-tutorial-py/part6.md)
 # List
 Có bốn kiểu thu thập dữ liệu trong Python:
 * List: Là một tập hợp được sắp xếp theo thứ tự và có thể thay đổi(Modifiable). Cho phép các thành phần trùng lặp.

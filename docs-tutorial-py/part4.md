@@ -1,4 +1,4 @@
-[<<Phần 3](../docs-tutorial-py/part3.md) [Phần 5>>](//docs-tutorial-py/part5.md)
+[<<Phần 3](../docs-tutorial-py/part3.md) [Phần 5>>](../docs-tutorial-py/part5.md)
 # Chuỗi
 
 ## String
@@ -93,4 +93,4 @@ isalpha(): Kiểm tra xem tất cả các phần tử chuỗi có phải là ký
 * `swapcase()`: Chuyển đổi tất cả các ký tự chữ hoa thành chữ thường và tất cả các ký tự chữ thường thành các ký tự chữ hoa
 * `startwith()`: Kiểm tra xem chuỗi có bắt đầu bằng chuỗi được chỉ định hay không
 
-[<<Phần 3](../docs-tutorial-py/part3.md) [Phần 5>>](//docs-tutorial-py/part5.md)
+[<<Phần 3](../docs-tutorial-py/part3.md) [Phần 5>>](../docs-tutorial-py/part5.md)

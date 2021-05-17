@@ -1,4 +1,4 @@
-[Phần 2>>](//docs-tutorial-py/part2.md)
+[Phần 2>>](../docs-tutorial-py/part2.md)
 # Phần 1 Giới thiệu về Python
 Python là một ngôn ngữ lập trình cao cấp dành cho lập trình mục đích chung. Nó là mã nguồn mở.
 
@@ -11,4 +11,4 @@ Hãy tải xuống Python [tại đây](https://www.python.org/downloads/)
 Python là một ngôn ngữ kịch bản thông dịch, vì vậy nó không cần phải phiên dịch. Nó có nghĩa là nó thực thi từng dòng mã. Py đi kèm với Python Shell(Python Interactive Shell). Nó được sử dụng để thực hiện một lệnh Python duy nhất và nhận kết quả.
 
 Python Shell đợi mã Py từ người dùng. Khi bạn nhập mã, nó sẽ diễn giải mã và hiển thị kết quả ở dòng tiếp theo. Mở đầu cuối hoặc dấu nhắc lệnh(cmd) của bạn và viết:
-[Phần 2>>](//docs-tutorial-py/part2.md)
+[Phần 2>>](../docs-tutorial-py/part2.md)
