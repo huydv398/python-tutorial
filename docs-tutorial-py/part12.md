@@ -43,13 +43,29 @@ print('S hình vuông: ', canhvuong(3))
 ```
 ### Import Built-in Modules
 Chúng ta cũng có thể nhập các module bằng cách nhập tên file/function bằng cách `import` keyword. Hãy import module mà chúng ta sẽ sử dụng hầu hết thời gian. Một số module tích hợp sẵn phổ biến:
-* math(toán học)
-* datetime(ngày giờ)
-* os(hệ điều hành)
-* sys(hệ thống)
-* random(ngẫu nhiên)
-* statistics(thống kê)
-* collections(tập hợp
-* thu thập)
-* json
-* re
+* `math`(toán học)
+* `datetime`(ngày giờ)
+* `os`(hệ điều hành)
+* `sys`(hệ thống)
+* `random`(ngẫu nhiên)
+* `statistics`(thống kê)
+* `collections`(tập hợp, thu thập)
+* `json`
+* `re`
+
+## OS Module
+Có thể tự động thực hiện tác vụ của hệ điều hành. OS module cung cấp các chức năng để tạo, thay đổi thư mục làm việc hiện tại và xóa thư mục(folder), Tìm nạp nội dung của nó, thay đổi xác định thư mục hiện tại.
+
+## Sys module
+Cung cấp các hàm và biến được sử dụng để thao tác các phần khác nhau của môi trường thời gian chạy Python. Function sys.argv trả về các danh sách đối số dòng lệnh, tại chỉ mục 1 là đối số được truyền từ dòng lệnh.
+
+## Statistics Module
+Cung cấp các function để thống kê toán học của dữ liệu số. các function thống kê phổ biến được định nghĩa trong module này: mean, median, mode, stdev,v.v.
+
+## Math Module
+Module chứa nhiều phép toán và hằng số.
+
+# String Module
+Một mô-đun hữu ích cho nhiều mục đích. Dưới đây là một ví dụ về chuỗi mà chúng tôi có thể lấy từ nó.
+## Random Module
+Bây giờ bạn đã quen với việc nhập các mô-đun. Hãy thực hiện thêm một lần nhập nữa để làm quen với nó. Hãy nhập mô-đun ngẫu nhiên cho chúng ta một số ngẫu nhiên từ 0 đến 0,9999 .... Mô-đun ngẫu nhiên có rất nhiều chức năng nhưng trong phần này chúng tôi sẽ chỉ sử dụng random và randint .
