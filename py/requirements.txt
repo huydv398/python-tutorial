@@ -1,6 +1,10 @@
-pyTelegramBotAPI==3.7.9
+pyTelegramBotAPI==2.2.3
 python-nmap==0.6.1
 python-telegram-bot==13.5
 requests==2.25.1
 shodan==1.25.0
 yagmail==0.14.256
+
+#pip3 install shodan
+#pip3 install pyTelegramBotAPI
+#pip3 install python-telegram-bot

@@ -9,19 +9,16 @@
 * 1 server linux : CentOS-7
 
 ## Thực hiện cài đặt
-Kiểm tra xem đã có version python3 trong máy chưa
-```
-python3 --version
-```
-
 Thực hiện cài đặt Python3 và các gói cần thiết:
 ```
-yum groupinstall "Development Tools" -y
+yum install -y python3
+
+<!-- yum groupinstall "Development Tools" -y
 yum install python3-devel -y
 yum install python3 -y
 yum install python3-pip -y
 pip3 install virtualenv
-yum install -y git curl 
+yum install -y git curl  -->
 ```
 
 ### Thực hiện tải source code
@@ -55,11 +52,7 @@ deactivate
 * Cài đặt requirement. Tên các module được sử dụng trong python3.
 `pip3 install -r requirements.txt`
 ### Tạo file service để chương trình chạy như một dịch vụ.
-* Tạo file service 
-
-`vi /etc/systemd/system/ipinfo.service`
-
-nội dung:
+* Tạo file service nội dung sau, thực hiện câu lệnh:
 ```
 echo """
 [Unit]
