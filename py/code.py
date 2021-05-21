@@ -7,10 +7,9 @@ import config
 import sys
 import ipaddress # Check ip
 
-API_Key="1899040673:AAGAa2H1hAfNJx0YzixrvVESBeK6b5voe1w"
+API_Key=config.TOKEN
 bot = telebot.TeleBot(API_Key)
-
-api = shodan.Shodan('mADcXaLmSj1k538MOVlG3Q66elnFLgmk') 
+api = shodan.Shodan(config.API_SHODAN) 
 
 # Reply hướng dẫn
 @bot.message_handler(commands=["start"])
@@ -32,7 +31,7 @@ def list_port(ipaddr):
             inf_output = port + " : \t " +protocol+'\t'+ service 
             info_port = info_port +'\n'+ inf_output
     except:
-            info_port = 'Loi port'
+            info_port = 'Lỗi port'
     return info_port  
 
 if __name__ == "__main__":
