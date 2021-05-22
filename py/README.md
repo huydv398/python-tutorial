@@ -13,12 +13,12 @@ Thực hiện cài đặt Python3 và các gói cần thiết:
 ```
 yum install -y python3
 
-<!-- yum groupinstall "Development Tools" -y
+yum groupinstall "Development Tools" -y
 yum install python3-devel -y
 yum install python3 -y
 yum install python3-pip -y
 pip3 install virtualenv
-yum install -y git curl  -->
+yum install -y git curl 
 ```
 
 ### Thực hiện tải source code

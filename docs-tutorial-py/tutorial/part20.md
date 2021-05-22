@@ -42,7 +42,7 @@ pip list
 ## Đọc từ URL
 Bây giờ bạn đã quen với cách đọc ghi trên tệp nằm trên máy local. Chúng tôi muốn đọc từ một trang web sử dụng url hoặc 1 API. Nó là một phương tiện để trao đổi dữ liệu có cấu trúc giữa các máy chủ chủ yếu dưới dạng dữ liệu json. Để mở một kết nối mạng, chúng ta cần một gói được gọi là `requests` nó cho phép mở một kết nối mạng và thực hiện hoạt động CRUD(create, read, update and delete). Trong phần này, chúng tôi sẽ chỉ đề cập đến việc đọc một phần của CRUD.install :
 ```
- pip install requests   
+ pip3 install requests   
 ```
 
 Chúng ta sẽ thấy các phương thức `get`, `status_code`, `headers`, `text` và `json` trong module requests:
@@ -53,6 +53,15 @@ Chúng ta sẽ thấy các phương thức `get`, `status_code`, `headers`, `tex
 * json: để trích xuất dữ liệu json Chúng ta hãy đọc một tệp txt dạng trang web này,
 
 Hãy đọc từ một api. API-Application Program Interface: là viết tắt của Giao diện chương trình ứng dụng. Nó là một phương tiện để trao đổi dữ liệu cấu trúc giữa các máy chủ chủ yếu là dữ liệu json.
+```
+url = 'https://www.w3.org/TR/PNG/iso_8859-1.txt' #nguồn dữ liệu
+
+response = requests.get(url) # Mở và tìm nạp dữ liệu
+print(response)
+print(response.status_code) # status code
+print(response.headers)     # headers information
+print(response.text) 
+```
 
 ## Creating a Package
 
@@ -92,3 +101,5 @@ Như các bạn thấy thư mục có chưa một tệp đặc biệt có tên i
     * Keras: được coi là một trong những thư viện học máy thú vị nhất trong Python. Nó cung cấp một cơ chế dễ dàng hơn để thể hiện mạng neural. Keras cũng cung cấp một số tiện ích tốt nhất để biên dịch mô hình, xử lý tập dữ liệu, trực quan hóa đồ thị và hơn thế nữa
 * Network:
     * request: là một gói mà chúng tôi có thể sử dụng để gửi yêu cầu đến máy chủ (GET, POST, DELETE, PUT)
+
+### Đọc dữ liệu

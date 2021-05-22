@@ -5,8 +5,8 @@ Gỡ bỏ trang web là quá trình trích xuất và thu thập dữ liệu t�
 
 Trong phần này, chúng ta sẽ sử dụng gói beautyfoulSoup4 và request để quét dữ liệu:
 ```
-pip install requests
-pip install beautifulsoup4
+pip3 install requests
+pip3 install beautifulsoup4
 ```
 
 Để thu thập dữ liệu từ các trang web, cần có hiểu biết cơ bản về các thẻ HTML và css. Mục tiêu nội dung từ một trang web bằng cách sử dụng các class, tag, ids. Import các module request và BeautifulSoup 
