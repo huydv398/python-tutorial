@@ -44,3 +44,13 @@ line3
 ```
 import sys; x = 'foo'; sys.stdout.write(x + '\n')
 ```
+
+## Kiểu dữ liệu
+Trong Python hỗ trợ rất nhiều kiểu dữ liệu số (*numeric*) . Một số kiểu dữ liệu cơ bản như số nguyên ( *integer* ) , số thực ( *floating-point* ) , phân số ( *fraction* ) , số phức ( *complex* ) ,
+
+### Phân số
+Để tạo một phân số(Fraction) trong python, sử dụng hàm Fraction với cú pháp:
+```
+Fraction(tử_số, mẫu_số)
+```
+

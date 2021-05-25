@@ -63,8 +63,16 @@ After=network.target
 PermissionsStartOnly=True
 User=root
 Group=root
-ExecStart=/opt/python-tutorial/py/python3-virtualenv/bin/python3 /opt/python-tutorial/py/code.py --serve-in-foreground
+ExecStart=/root/pycheck/python3-virtualenv/bin/python3 root/pycheck/check.py --serve-in-foreground
 
 [Install]
 WantedBy=multi-user.target """ > /etc/systemd/system/ipinfo.service
+```
+
+* Khởi động dịc vụ
+```
+systemctl daemon-reload
+systemctl start ipinfo
+systemctl status ipinfo
+systemctl enable ipinfo
 ```
