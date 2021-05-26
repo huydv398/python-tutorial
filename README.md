@@ -21,3 +21,6 @@
 * [Phần  >>](docs-tutorial-py/part19.md)
 * [Phần  >>](docs-tutorial-py/part20.md)
 * [Phần  >>](docs-tutorial-py/part21.md)
+
+## regex
+* [Định dạng tên miền đúng quy cách](python-tutorial/docs-tutorial-py/reseach/regexdomainname.md)
