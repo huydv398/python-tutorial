@@ -1,4 +1,4 @@
-[Phần 2>>](../docs-tutorial-py/part2.md)
+[Phần 2>>](../docs-tutorial-py/tutorial/part2.md)
 # Phần 1 Giới thiệu về Python
 Python là một ngôn ngữ lập trình cao cấp dành cho lập trình mục đích chung. Nó là mã nguồn mở.
 
@@ -12,4 +12,4 @@ Python là một ngôn ngữ kịch bản thông dịch, vì vậy nó không c�
 
 Python Shell đợi mã Py từ người dùng. Khi bạn nhập mã, nó sẽ diễn giải mã và hiển thị kết quả ở dòng tiếp theo. Mở đầu cuối hoặc dấu nhắc lệnh(cmd) của bạn và viết:
 
-[Phần 2>>](../docs-tutorial-py/part2.md)
+[Phần 2>>](../docs-tutorial-py/tutorial/part2.md)
