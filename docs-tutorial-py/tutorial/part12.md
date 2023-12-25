@@ -1,4 +1,4 @@
-[<<Phần 11](../docs-tutorial-py/part10.md) [Phần 12>>](../docs-tutorial-py/part13.md)
+[<<Phần 11](../docs-tutorial-py/tutorial/part10.md) [Phần 12>>](../docs-tutorial-py/tutorial/part13.md)
 # Module
 ## Module là gì?
 Là một tệp chứa một bộ code hoặc một bộ Function có thể được đưa vào một ứng dụng. Module có thể là một tệp chứa một biến duy nhất hoặc một hàm, một code base lớn.

@@ -1,4 +1,4 @@
-[<<Phần 9](../docs-tutorial-py/part9.md) [Phần 11>>](../docs-tutorial-py/part11.md)
+[<<Phần 9](../docs-tutorial-py/tutorial/part9.md) [Phần 11>>](../docs-tutorial-py/tutorial/part11.md)
 # Vòng lặp
 Trong lập trình có việc vấn đề oahir lặp đi lập lại. Để sử lý công việc lặp đi lặp lại các ngôn ngữ lập trình cung cấp các vòng lặp.
 * while
@@ -308,4 +308,4 @@ output:
 ```
 
 ```
-[<<Phần 9](../docs-tutorial-py/part9.md) [Phần 11>>](../docs-tutorial-py/part11.md)
+[<<Phần 9](../docs-tutorial-py/tutorial/part9.md) [Phần 11>>](../docs-tutorial-py/tutorial/part11.md)

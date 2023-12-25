@@ -1,5 +1,5 @@
 
-[<<Phần 1](../docs-tutorial-py/part1.md) [Phần 3>>](../docs-tutorial-py/part3.md)
+[<<Phần 1](../docs-tutorial-py/tutorial/part1.md) [Phần 3>>](../docs-tutorial-py/tutorial/part3.md)
 # Chức năng tích hợp sẵn
 Trong python, chúng tôi có rất nhiều chức năng được tích hợp sẵn. Các chức năng tích hợp sẵn trên toàn cầu để bạn sử dụng. Một hàm tích hợp trong Python được sử dụng phổ biến như sau
 * `print ()` 
@@ -141,4 +141,4 @@ num_str ='12.23'
 ['Đ', 'ư', 'ờ', 'n', 'g', ' ', 'V', 'ă', 'n', ' ', 'H', 'u', 'y']
 ```
 
-[<<Phần 1](../docs-tutorial-py/part1.md) [Phần 3>>](../docs-tutorial-py/part3.md)
+[<<Phần 1](../docs-tutorial-py/tutorial/part1.md) [Phần 3>>](../docs-tutorial-py/tutorial/part3.md)

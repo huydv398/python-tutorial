@@ -1,4 +1,4 @@
-[<<Phần 8](../docs-tutorial-py/part8.md) [Phần 10>>](../docs-tutorial-py/part10.md)
+[<<Phần 8](../docs-tutorial-py/tutorial/part8.md) [Phần 10>>](../docs-tutorial-py/tutorial/part10.md)
 ## Điều kiện
 Theo mặc định, các câu lệnh trong python được thực thi tuần tự từ trên xuống dưới. Nếu logic xử lý yêu cầu như vậy, Luồng thực thi tuần tự có thể được thay đổi theo 2 cách
 * Thực thi có điều kiện: Một khối gồm một hoặc nhiều câu lệnh sẽ được thực hiện Nếu một biểu thức nhất định là đúng.
@@ -177,4 +177,4 @@ else:
 ```
 output:     Cho phép!!
 ## sd
-[<<Phần 8](../docs-tutorial-py/part8.md) [Phần 10>>](../docs-tutorial-py/part10.md)
+[<<Phần 8](../docs-tutorial-py/tutorial/part8.md) [Phần 10>>](../docs-tutorial-py/tutorial/part10.md)

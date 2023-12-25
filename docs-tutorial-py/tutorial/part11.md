@@ -1,4 +1,4 @@
-[<<Phần 10](../docs-tutorial-py/part10.md) [Phần 12>>](../docs-tutorial-py/part12.md)
+[<<Phần 10](../docs-tutorial-py/tutorial/part10.md) [Phần 12>>](../docs-tutorial-py/tutorial/part12.md)
 # Function
 Chức năng- chúng ta thấy nhiều hàm python được tích hợp sẵn. Trong phần này, chúng tôi sẽ tập trung vào các function tùy chỉnh. Function là gì? Trước khi tạo Function, Chúng ta tìm hiểu hàm là gì và tại sao chúng ta cần chúng?
 
@@ -220,4 +220,4 @@ def do_something(f, x):
     return f(x)
 print(do_something(square_number, 3))
 ```
-[<<Phần 10](../docs-tutorial-py/part10.md) [Phần 12>>](../docs-tutorial-py/part12.md)
+[<<Phần 10](../docs-tutorial-py/tutorial/part10.md) [Phần 12>>](../docs-tutorial-py/tutorial/part12.md)

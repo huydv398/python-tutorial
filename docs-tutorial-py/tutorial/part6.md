@@ -1,4 +1,4 @@
-[<<Phần 5](../docs-tutorial-py/part5.md) [Phần 7>>](../docs-tutorial-py/part7.md)
+[<<Phần 5](../docs-tutorial-py/tutorial/part5.md) [Phần 7>>](../docs-tutorial-py/tutorial/part7.md)
 # Tuples
 Là một tập hợp các kiểu dữ liệu khác nhau được sắp xếp theo thứ tự và không thể thay đổi. Các bộ giá trị được viết bằng dấu ngoặc tròn,(). Khi Tuple được tạo, ta không thể nào thay đổi các giá trị của nó. Chúng ta không thể sử dụng phương thức add, insert, remove trong một Tuple vì nó không thể sửa đổi. Không giống như List, Tuple có ít phương thức. Các phương pháp liên quan đến bộ giá trị nàoL
 * `tuple()`: Để tạo một Tuple trống
@@ -37,4 +37,4 @@ qua2= qua[2] #Xoài
 qua1= qua[-4] #Táo
 qua2= qua[-2] #Xoài
 ```
-[<<Phần 5](../docs-tutorial-py/part5.md) [Phần 7>>](../docs-tutorial-py/part7.md)
+[<<Phần 5](../docs-tutorial-py/tutorial/part5.md) [Phần 7>>](../docs-tutorial-py/tutorial/part7.md)
