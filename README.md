@@ -25,3 +25,8 @@
 
 ## Advance
 * [Định dạng tên miền đúng quy cách](python-tutorial/docs-tutorial-py/tutorial/reseach/regexdomainname.md)
+* [Biến và câu lệnh trong Python](python-tutorial/docs-tutorial-py/tutorial/reseach/var-cmd.md)
+
+
+## Basic
+* [Preparing Linux](docs-tutorial-py/basic/Preparing-Linux.md)
