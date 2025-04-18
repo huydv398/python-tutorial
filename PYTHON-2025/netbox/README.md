@@ -108,6 +108,13 @@ curl -X 'POST' -k -H "Authorization: Token da6b8955f31e800827e0c4fd1dfc3316f1024
 -H "Content-Type: application/json" \
 https://172.16.66.29/api/dcim/devices/ -d $'{"name": "name_device", "role": {"id": "1"}, "site": {"id": "1"}, "description": "description", "status": "active", "device_type": {"model": "PowerEdge R630"}}'
 
+curl -X 'POST' -k -H "Authorization: Token da6b8955f31e800827e0c4fd1dfc3316f1024683" \
+-H "Content-Type: application/json" \
+https://172.16.66.29/api/dcim/devices/ -d $'{"name": "name_device", "role": {"id": "1"}, "site": {"id": "1"}, "description": "description", "status": "active", "device_type": {"model": "PowerEdge R630"}}'
+curl -X 'PATCH' -k -H "Authorization: Token da6b8955f31e800827e0c4fd1dfc3316f1024683" \
+-H "Content-Type: application/json" \
+https://172.16.66.29/api/dcim/devices/5/ -d $'{"status": "offline"}'
+
 ```Python
 # add device
 def r_netbox():
@@ -185,3 +192,92 @@ def r_netbox():
 for tag in data['results'][0]['tags']:
     print(tag['id'])
 ```
+
+```python
+def serial(u):
+        # valid_statuses = ['offline', 'active', 'planned', 'staged', 'failed', 'inventory', 'decommissioning']
+
+        while True:
+            try:
+                current = u['serial'] if u.get('serial') else 'unknown'
+                serial = input("[4]. Serial number (%s): " % current).strip()
+
+                # If user just presses Enter, return the current status
+                if not description:
+                    return current
+            except Exception as e:
+                print(f"Error: {e}. Please try again.")
+
+
+
+
+    def get_status(u):
+        valid_statuses = ['offline', 'active', 'planned', 'staged', 'failed', 'inventory', 'decommissioning']
+
+        while True:
+            try:
+                current_status = u['status']['value'] if u.get('status') and u['status'].get('value') else 'unknown'
+                status = input("[2]. Status (%s): " % current_status).strip().lower()
+
+                # If user just presses Enter, return the current status
+                if not status:
+                    return current_status
+
+                if status in valid_statuses:
+                    return status
+                else:
+                    print("Invalid status! Please enter one of: %s" % ", ".join(valid_statuses))
+            except Exception as e:
+                print(f"Error: {e}. Please try again.")
+
+```
+
+```
+# print(london_co["r1"]["ip"])
+
+# #Print 1 var
+# print('device {}'.format(device))
+
+# #Print 2 var
+# print("1. IP %s is %s" % (device, parameter))
+# print("2. IP {} is {}".format(device, parameter))
+# print("3. IP {0} is {1}".format(device, parameter))
+# print("4. IP {n} is {s}".format(n=device, s=parameter))
+# print("5. IP " + str(device) + " is " + str(parameter))
+# print("6. IP", device, "is", parameter)
+```
+
+
+def get_serial(u):
+    while True:
+        try:
+            current = u['serial'] if u.get('serial') else 'unknown'
+            serial = input("[4]. Serial number (%s): " % current).strip().upper()
+
+            # Nếu người dùng không nhập gì, giữ lại serial cũ
+            return serial if serial else current
+
+        except Exception as e:
+            print(f"Error: {e}. Please try again.")
+
+
+    def get_device_id():
+        while True:
+            valid_dev = [id['id'] for id in data_dev['results']]
+            print(valid_dev)
+            try:
+                # Get user input and try to convert it to an integer
+                device_id_input =  int(input("Enter id Device: ")) 
+                if device_id_input in valid_dev:
+                    return device_id_input
+                else:
+                    print("Invalid status! Please enter one of: %s" % ", ".join(valid_dev))
+            # except ValueError:
+            #     # If the input is not a valid integer, show an error message and ask again
+            #     print("Invalid input! Please enter a valid numeric ID.")
+            except Exception as e:
+                print(f"Error: {e}. Please try again.")
+
+loop nếu kgi
+except Exception as e:
+    print(f"Error: {e}. Please try again.")

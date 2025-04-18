@@ -58,3 +58,18 @@ print(parameter_value)
 # print("4. IP {n} is {s}".format(n=device, s=parameter))
 # print("5. IP " + str(device) + " is " + str(parameter))
 # print("6. IP", device, "is", parameter)
+
+
+def main():
+    print("Select function!!!")
+    print("Select function!!!")
+    data = [
+        ["Show", "[1]. Device", "[2]. Tenancy", "[3]. Sites"],
+        ["Create", "[4]. Device ", "[5]. Tenancy", "[6]. "],
+        ["Update", "[7]. Device", "[8]. Tenancy", "[9]. "],
+        ["Delete", "[10]. Device", "[11]. Tenancy", "[12]. "]
+    ]
+
+    for row in data:
+        print("{:<15} {:<20} {:<20} {:<20}".format(*row))
+main()
